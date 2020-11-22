@@ -20,5 +20,5 @@ Vagrant.configure("2") do |config|
 	config.vm.network :forwarded_port, guest: 80, host: 8080
     config.vm.network :private_network, ip: configVars['networkIP']
 	
-	config.vm.provision :shell, :path => "provision/"+configVars['provision']
+	config.vm.provision :shell, :path => "provisions/"+configVars['provision']
 end
