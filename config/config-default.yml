@@ -1,0 +1,3 @@
+networkIP: "192.168.33.10"
+networkProjectDir: "/var/www/html"
+provision: "provision-default.sh"
